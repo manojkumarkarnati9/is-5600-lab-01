@@ -113,5 +113,36 @@ main {
    margin-top: 10px;
 }
 
+/* Social Section Styles */
+.social {
+   margin-top: 1rem;
+   font-size: 12px;
+}
 
+.social span {
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding-left: 25px;
+   margin-right: 10px;
+}
+
+.social .heart {
+   background-image: url(./images/heart.png);
+}
+
+.social .comment {
+   background-image: url(./images/comment.png);
+}
+
+/* Main Flexbox Layout for Cards */
+main {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px; /* Space between the cards */
+}
+
+.card {
+   flex-basis: calc(33.333% - 10px); /* Adjust for 3 cards per row with space */
+   box-sizing: border-box;
+}
 

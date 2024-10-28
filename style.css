@@ -14,3 +14,104 @@ body {
 }
 
 /* add styles here */
+/* Navigation Bar Styling */
+#topbar {
+   background-color: #333; 
+   padding: 10px 20px;     
+   text-align: center;     
+}
+
+#topbar ul {
+   list-style-type: none;  
+   margin: 0;
+   padding: 0;
+   display: flex;          
+   justify-content: center; 
+}
+
+#topbar li {
+   margin: 0 15px;         
+}
+
+#topbar a {
+   color: white;           
+   text-decoration: none;   
+   font-size: 16px;         
+}
+
+#topbar a:hover {
+   color: #ddd;            
+}
+
+/* Hero Section Styling */
+header div {
+   background-image: url('https://kittybucholtz.com/wp-content/uploads/2014/02/Superhero-drawn.jpg'); /* Update with your image path */
+   background-size: cover;
+   background-position: center;
+   height: 300px; 
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 20px;
+}
+
+header h2 {
+   font-size: 2.5rem;
+   margin: 0;
+}
+
+header p {
+   font-size: 1.2rem;
+}
+
+header a {
+   color: #ffffff;
+   background-color: #333333;
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+
+/* Card Container Styling */
+main {
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   padding: 20px;
+}
+
+/* Individual Card Styling */
+.card {
+   background-color: #f9f9f9;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   overflow: hidden;
+   width: 250px; /* Adjust as needed */
+   text-align: center;
+}
+
+.card img {
+   width: 100%;
+   height: auto;
+}
+
+.card div {
+   padding: 15px;
+}
+
+.card h3 {
+   font-size: 1.5rem;
+   margin: 0;
+}
+
+.card p {
+   font-size: 1rem;
+   margin-top: 10px;
+}
+
+
+
